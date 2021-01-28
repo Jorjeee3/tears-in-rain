@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 100px 0 0;
+    background-color: #fff;
+    min-height: 80vh;
+    background-color: #464F54;
+}
+
+.edit-form {
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+    position: absolute;
+    top: -70px;
+    right: -35px;
+    width: 600px;
+}
+
+.label {
+    width: 100%;
+}
+
+.label-text,
+.input {
+    display: block;
+}
+
+.label-text {
+    opacity: 0.6;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.input {
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    border-bottom: 3px solid rgb(255, 255, 255, 0.2);
+    font-size: 48px;
+    padding-bottom: 1px;
+    width: 100%;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.icons {
+    color: #fff;
+    background-color: #FBC02D;
+    position: absolute;
+    transform: translate(0%,100%);
+    bottom: 0px;
+    right: 0;
+}
+
+.icon-item {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    opacity: 0.5;
+    height: 20px;
+    width: 20px;
+}
+
+.icon-item:hover {
+    opacity: 1;
+}
+
+.content {
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    padding: 200px 40px 200px;
+    position: relative;
+    z-index: 0;
+}
+
+.small {
+    opacity: 0.5;
+    margin-bottom: 0;
+}
+
+.title {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    opacity: 0.6;
+    margin-top: 0;
+    font-size: 16px;
+    font-family: geogria;
+}
+
+
+
+
+
+
+
+
+
+
+
+
